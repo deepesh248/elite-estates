@@ -1,5 +1,6 @@
 .nav{
-    background-color: rgb(151, 14, 14);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 19%, rgba(65,65,170,1) 48%, rgba(0,212,255,1) 92%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,6 +10,7 @@
 
 .nav > div, ul{
     display: inline-block;
+    padding: 0.4rem 0;
 }
 
 .logo{
@@ -19,9 +21,13 @@
     list-style: none;
 }
 
-.menu > li >a, .buy_dropdown > li >a{
+.menu > li >a, .buy_dropdown > li >a, .login{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.1rem;
 }
 
 .menu{
@@ -32,10 +38,8 @@
 
 .menu > li{
     margin: 0 2rem;
-    font-size: 1.1rem;
     position: relative;
 }
-
 
 .menu > li:after {
     content: '';
@@ -44,24 +48,34 @@
     height: 2px;
     width: 0px;
     background: transparent;
-    transition: width .5s ease, background-color .5s ease;
+    transition: width .4s ease, background-color .5s ease;
   }
  .menu > li:hover:after {
     width: 100%;
     background: rgb(255, 255, 255);
   }
 
-.buy_dropdown{
-    position: absolute;
-    top: 2rem;
-    left: -0.5rem;
-    background-color: blueviolet;
+.buy:hover .buy_dropdown{
+    display: block;
 }
 
+.buy_dropdown{
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    left: -0.5rem;
+    box-shadow: 3px 3px 5px rgb(12, 24, 106);
+    border-radius: 10px 10px 50px 10px;
+    background: rgb(32,28,126);
+    background: linear-gradient(0deg, rgb(32, 29, 132) 0%, rgba(29,29,186,1) 53%, rgb(32, 32, 120) 100%);
+}
+
+
 .buy_dropdown > li{
-    width: 7rem;
-    background-color: aqua;
+    width: 8.5rem;
     margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem 0;
     padding-left: 10px;
     transition: content .5s ease;
 }
@@ -71,16 +85,42 @@
     display: inline-block;
     height: 12px;
     width: 0px;
-    background-color: rgba(0, 0, 1, 0);
-    transition: width .5s ease, margin-right .5s ease, background-color 0.5s;
+    background-color: transparent;
+    transition: width 0.2s linear, margin-right .5s ease, background-color 0.5s ease;
 }
 
 .buy_dropdown > li:hover:before{
     margin-right: 0.5rem;
-    width: 1px;
-    background-color: rgb(0, 0, 1);
+    width: 2px;
+    background-color: white;
 }
 
 .login{
-    margin: 0 2rem;
+  animation: spin 2.5s infinite linear;
+  background:
+    linear-gradient(to bottom, oklch(0.1 0.2 240 / 0.95), oklch(0.1 0.2 240 / 0.95))
+      padding-box,
+    conic-gradient(from var(--bg-angle) in oklch longer hue, oklch(0.85 0.37 0) 0 100%)
+      border-box;
+  border: 3px solid transparent;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
 }
+
+.login:hover{
+    animation-play-state: paused;
+}
+
+
+@keyframes spin {
+    to {
+      --bg-angle:360deg;
+    }
+  }
+
+  @property --bg-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }

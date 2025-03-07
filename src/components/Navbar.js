@@ -7,7 +7,7 @@ function Navbar() {
       <div className={style.container}>
         <nav className={style.nav}>
           <div>
-            <img className={style.logo} src={logo} alt="" />
+            <a href="##"><img className={style.logo} src={logo} alt="" /></a>
           </div>
           <ul className={style.menu}>
             <li><a href="##">Home</a></li>
@@ -25,7 +25,7 @@ function Navbar() {
             <li><a href="##">About Us</a></li>
             <li><a href="##">Contact</a></li>
           </ul>
-          <div className={style.login}>Login</div>
+          <div><a className={style.login} href="##">Login</a></div>
         </nav>
       </div>
     </>
