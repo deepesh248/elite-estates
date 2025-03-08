@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/elite-estates/static/css/main.b92c874d.css",
+    "main.js": "/elite-estates/static/js/main.4af97d7e.js",
+    "static/media/logo_elite.png": "/elite-estates/static/media/logo_elite.cb1ebb95e98a04fb634f.png",
+    "index.html": "/elite-estates/index.html",
+    "main.b92c874d.css.map": "/elite-estates/static/css/main.b92c874d.css.map",
+    "main.4af97d7e.js.map": "/elite-estates/static/js/main.4af97d7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b92c874d.css",
+    "static/js/main.4af97d7e.js"
+  ]
+}
