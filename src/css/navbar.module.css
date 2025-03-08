@@ -17,11 +17,11 @@
     width: 3rem;
 }
 
-.menu > li, .buy_dropdown > li {
+.menu > li, .buy_dropdown > li, .mobile_menu > li {
     list-style: none;
 }
 
-.menu > li >a, .buy_dropdown > li >a, .login{
+.menu > li >a, .buy_dropdown > li >a, .login, .mobile_menu > li > a{
     text-decoration: none;
     color: white;
     font-family: "Arimo", sans-serif;
@@ -55,6 +55,11 @@
     background: rgb(255, 255, 255);
   }
 
+.buy > a{
+    display: flex;
+    align-items: center;
+}
+
 .buy:hover .buy_dropdown{
     display: block;
 }
@@ -62,7 +67,7 @@
 .buy_dropdown{
     display: none;
     position: absolute;
-    top: 1.5rem;
+    top: 1.4rem;
     left: -0.5rem;
     box-shadow: 3px 3px 5px rgb(12, 24, 106);
     border-radius: 10px 10px 50px 10px;
@@ -95,6 +100,19 @@
     background-color: white;
 }
 
+.arrow{
+    width: 10px;
+   height: 10px;
+    transform: rotate(0deg);
+    padding: 0 8px;
+    transition: transform 0.2s;
+}
+
+.buy:hover .arrow{
+    transform: rotate(180deg);
+    transition: transform 0.2s;
+}
+
 .login{
   animation: spin 2.5s infinite linear;
   background:
@@ -112,7 +130,6 @@
     animation-play-state: paused;
 }
 
-
 @keyframes spin {
     to {
       --bg-angle:360deg;
@@ -123,4 +140,74 @@
     syntax: "<angle>";
     initial-value: 0deg;
     inherits: false;
+  }
+
+  @media (max-width:1030px){
+    .menu > li:nth-child(n + 5){
+        display: none
+    }
+  }
+
+  @media (min-width:710px) {
+    .mobile_sidemenu > button, .mobile_menu{
+        display: none;
+    }
+    .mobile_sidemenu{
+        position: absolute;
+    }
+  }
+
+  @media (max-width:710px){
+    .menu{
+        display: none;
+    }
+
+    .login{
+        display: none;
+    }
+
+    .mobile_sidemenu{
+        position: relative;
+        display: block;
+    }
+
+    .mobile_sidemenu > button{
+        all:unset;
+        font-size: 1.4rem;
+        color: rgb(0, 0, 91);
+        display: block;
+    }
+
+    .mobile_menu_section{
+        display: none;
+    }
+
+    .mobile_menu{
+        display: block;
+        width: 6rem;
+        position: absolute;
+        right: -1rem;
+        top: 3.3rem;
+        background-color: brown;
+        padding: 1rem 2rem;
+        box-shadow: 3px 3px 5px rgb(109, 198, 208);
+        border-radius: 0px 0px 10px 10px;
+        background: rgb(5, 188, 238);
+        background: linear-gradient(0deg, rgb(29, 105, 132) 0%, rgb(51, 158, 197) 53%, rgb(25, 205, 241) 100%);
+    }
+
+    .mobile_menu > li{
+        padding: 0.3rem 0;
+    }
+
+    .mobile_login{
+        display: inline-block;
+        
+    }
+  }
+
+  @media (max-width:440px){
+    .nav{
+        padding: 0 2rem;
+    }
   }
