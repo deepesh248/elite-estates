@@ -1,0 +1,10 @@
+.container{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.container > img{
+    position: static;
+    width: 100%;
+}

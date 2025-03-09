@@ -1,16 +1,26 @@
+.container{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
 .nav{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 19%, rgba(65,65,170,1) 48%, rgba(0,212,255,1) 92%);
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 19%, rgba(65,65,170,1) 48%, rgba(0,212,255,1) 92%); */
+    background-color: rgba(0, 0, 0, 0.173);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 4rem;
+    z-index: 10;
+    position: relative;
 }
 
 
 .nav > div, ul{
     display: inline-block;
     padding: 0.4rem 0;
+    z-index: 10;
 }
 
 .logo{
@@ -73,6 +83,7 @@
     border-radius: 10px 10px 50px 10px;
     background: rgb(32,28,126);
     background: linear-gradient(0deg, rgb(32, 29, 132) 0%, rgba(29,29,186,1) 53%, rgb(32, 32, 120) 100%);
+    z-index: 10;
 }
 
 
@@ -116,7 +127,7 @@
 .login{
   animation: spin 2.5s infinite linear;
   background:
-    linear-gradient(to bottom, oklch(0.1 0.2 240 / 0.95), oklch(0.1 0.2 240 / 0.95))
+    linear-gradient(to bottom, black,black)
       padding-box,
     conic-gradient(from var(--bg-angle) in oklch longer hue, oklch(0.85 0.37 0) 0 100%)
       border-box;
