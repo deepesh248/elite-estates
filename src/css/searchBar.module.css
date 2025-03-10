@@ -1,0 +1,127 @@
+.heading{
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.searchContainer {
+    background-color: #ebf3f3;
+    padding: 2rem 5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    transition: all 0.3s ease;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e2eded;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    outline: none;
+    cursor: pointer;
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .inputField:focus {
+    border-color: #1d2f94;
+    box-shadow: 0 0 10px rgba(45, 54, 103, 0.2);
+    transform: scale(1.02);
+  }
+  
+  .inputField > option {
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .inputField > option:hover {
+    background-color: #000000;
+    color: #4f0909;
+  }
+  
+  .budgetLabel {
+    font-size: 14px;
+    color: #2d3667;
+    margin-bottom: 5px;
+    display: block;
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .budgetSelect {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .budgetSelect > select {
+    flex: 1;
+  }
+  
+  .searchButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #2d3667;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    font-family: "Suez One", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+  }
+  
+  .searchButton:hover {
+    background-color: #1f2755;
+    transform: scale(1.05);
+  }
+  
+  .searchButton:active {
+    background-color: #181d45;
+  }
+  
+  .searchContainer:hover {
+    background-color: #e6f0f0;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .inputField:hover {
+    background-color: #f9f9f9;
+    border-color: #d1e0e0;
+  }
+
+  @media (max-width:1030px){
+    .heading{
+      font-size: 4rem;
+    }
+}
+
+@media (max-width:710px){
+  .heading{
+    font-size: 2.5rem;
+  }
+}
+
+  @media (max-width:440px){
+    .searchContainer{
+      padding: 1rem 2rem;
+    }
+
+    .heading{
+      font-size: 1.8rem;
+    }
+}
+  
