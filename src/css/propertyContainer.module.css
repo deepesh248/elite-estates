@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.swiper{
+    width: 62rem;
+    padding: 1rem;
+}
+
+.container > h1{
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.3rem;
+    text-align: left;
+    width: 62rem;
+    color: rgb(3, 40, 75);
+}
+
+@media (max-width:1030px) {
+    .swiper{
+        width: 52rem;
+    }
+
+    .container > h1{
+        width: 52rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:890px) {
+    .swiper{
+        width: 42rem;
+    }
+
+    .container > h1{
+        width: 42rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:710px) {
+    .swiper{
+        width: 31rem;
+    }
+
+    .container > h1{
+        width: 31rem;
+        font-size: 1.3rem;
+    }
+}

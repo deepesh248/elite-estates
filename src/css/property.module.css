@@ -1,0 +1,144 @@
+.container{
+    width: 30rem;
+    height: 15rem;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 5px ;
+}
+
+.gradient{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5606617647058824) 0%, rgba(0,212,255,0) 100%);
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    transition: all 0.5 ease;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.content > h2{
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.flexRow{
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.heading{
+    width: 50%;
+    text-align: right;
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.gradient:hover{
+    background: linear-gradient(0deg, rgba(15, 31, 37, 0.561) 0%, rgba(0,212,255,0) 100%);
+}
+
+@media (max-width:1030px){
+    .container{
+        width: 25rem;
+        height: 12.5rem;
+    }
+
+    .content{
+        font-size: 0.6rem;
+        padding: 8px;
+    }
+
+    .content > h2{
+        font-size: 0.8rem;
+    }
+
+    .flexRow{
+        width: 93%;
+        font-size: 0.6rem;
+        padding-top: 0.8rem;
+    }
+
+    .heading{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:890px) {
+    .container{
+        width: 20rem;
+        height: 10rem;
+    }
+
+    .content{
+        font-size: 0.6rem;
+        padding: 8px;
+    }
+
+    .content > h2{
+        font-size: 0.8rem;
+    }
+
+    .flexRow{
+        width: 93%;
+        font-size: 0.6rem;
+        padding-top: 0.8rem;
+    }
+
+    .heading{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:710px) {
+    .container{
+        width: 15rem;
+        height: 7.5rem;
+    }
+
+    .content{
+        font-size: 0.4rem;
+        padding: 6px;
+    }
+
+    .content > h2{
+        font-size: 0.6rem;
+    }
+
+    .flexRow{
+        width: 91%;
+        font-size: 0.5rem;
+        padding-top: 0.6rem;
+    }
+
+    .heading{
+        font-size: 0.6rem;
+    }
+}
