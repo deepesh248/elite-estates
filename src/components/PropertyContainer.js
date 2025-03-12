@@ -1,5 +1,6 @@
 import style from "../css/propertyContainer.module.css";
-import React, { useRef, useState } from "react";
+import '../css/swiper.css'
+import React, { useRef, useState, useEffect, useCallback } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -12,9 +13,28 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 
 import Property from "./Property";
-import house1 from '../resource/images/pexels-scottwebb-1029599.jpg'
+import house1 from '../resource/images/pexels-binyaminmellish-1396122.jpg'
+import house2 from '../resource/images/pexels-emrecan-2079234.jpg'
+import house3 from '../resource/images/pexels-expect-best-79873-323776.jpg'
+import house4 from '../resource/images/pexels-pixabay-53610.jpg'
+import house5 from '../resource/images/pexels-pixabay-259588.jpg'
 
 function PropertyContainer() {
+  const [slidesPerView, setSlidesPerView] = useState(getSlidesPerView());
+  function getSlidesPerView() {
+    if (window.innerWidth <= 820) return 1;
+    return 2;
+  }
+
+  const handleResize = useCallback(() => {
+    setSlidesPerView(getSlidesPerView());
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [handleResize]);
+
   const [properties, setProperties] = useState([
     {
       houseName: "Dream Villa",
@@ -30,7 +50,7 @@ function PropertyContainer() {
       bhk: "2BHK",
       location: "Goa",
       price: "50L - 1Cr",
-      image: house1,
+      image: house2,
     },
     {
       houseName: "Green Nest",
@@ -38,7 +58,7 @@ function PropertyContainer() {
       bhk: "4BHK",
       location: "Bangalore",
       price: "70L - 1.5Cr",
-      image: house1,
+      image: house3,
     },
     {
       houseName: "Sky Heights",
@@ -46,7 +66,7 @@ function PropertyContainer() {
       bhk: "3BHK",
       location: "Mumbai",
       price: "1Cr - 2Cr",
-      image: house1,
+      image: house4,
     },
     {
       houseName: "Royal Residency",
@@ -54,7 +74,7 @@ function PropertyContainer() {
       bhk: "5BHK",
       location: "Delhi",
       price: "2Cr - 5Cr",
-      image: house1,
+      image: house5,
     },
   ]);
   const [swiperRef, setSwiperRef] = useState(null);
@@ -65,23 +85,12 @@ function PropertyContainer() {
         <div className={style.swiper}>
           <Swiper
             onSwiper={setSwiperRef}
-            slidesPerView={2}
+            slidesPerView={slidesPerView}
             centeredSlides={false}
             spaceBetween={10}
             navigation={true}
             modules={[Navigation]}
             className="mySwiper"
-            breakpoints={{
-              530: {   // 👈 When screen width is 530px or less
-                slidesPerView: 1
-              },
-              768: {   // 👈 When screen width is 768px or more
-                slidesPerView: 2
-              },
-              1024: {  // 👈 When screen width is 1024px or more
-                slidesPerView: 2
-              }
-            }}
           >
             
             {properties.map((property, index) => (

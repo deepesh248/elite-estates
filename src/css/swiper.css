@@ -1,0 +1,31 @@
+.swiper-button-next, .swiper-button-prev {
+    background-color: rgba(0, 0, 0, 0.663);
+    padding: 10px 2px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.675);
+    color: red;
+}
+
+
+.swiper-button-prev {
+    transform: translateX(-0.7rem);
+}
+
+.swiper {
+    --swiper-navigation-size: 20px;
+    --swiper-theme-color: #ffffff;
+}
+
+/* @media (max-width:710px){
+    .swiper {
+        --swiper-navigation-size: 10px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        padding: 7px 2px;
+    }
+
+    .swiper-button-next {
+        transform: translateX(0.5rem);
+    }
+} */
