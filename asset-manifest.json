@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/elite-estates/static/css/main.7e3fad49.css",
-    "main.js": "/elite-estates/static/js/main.e21a9432.js",
+    "main.css": "/elite-estates/static/css/main.3faa66a4.css",
+    "main.js": "/elite-estates/static/js/main.4316e534.js",
     "static/media/house.png": "/elite-estates/static/media/house.adfb8de9a8bc7824885f.png",
+    "static/media/pexels-pixabay-259588.jpg": "/elite-estates/static/media/pexels-pixabay-259588.2fbd7cd5c29093d055f9.jpg",
+    "static/media/pexels-emrecan-2079234.jpg": "/elite-estates/static/media/pexels-emrecan-2079234.f8469c193c723fa65294.jpg",
+    "static/media/pexels-binyaminmellish-1396122.jpg": "/elite-estates/static/media/pexels-binyaminmellish-1396122.2d2be2c429a32b678629.jpg",
+    "static/media/pexels-expect-best-79873-323776.jpg": "/elite-estates/static/media/pexels-expect-best-79873-323776.6d32fa4176ceb1002bf8.jpg",
+    "static/media/pexels-pixabay-53610.jpg": "/elite-estates/static/media/pexels-pixabay-53610.3ef76aa2a5e71dc4b3ee.jpg",
     "static/media/logo_elite.png": "/elite-estates/static/media/logo_elite.cb1ebb95e98a04fb634f.png",
     "index.html": "/elite-estates/index.html",
-    "main.7e3fad49.css.map": "/elite-estates/static/css/main.7e3fad49.css.map",
-    "main.e21a9432.js.map": "/elite-estates/static/js/main.e21a9432.js.map"
+    "main.3faa66a4.css.map": "/elite-estates/static/css/main.3faa66a4.css.map",
+    "main.4316e534.js.map": "/elite-estates/static/js/main.4316e534.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e3fad49.css",
-    "static/js/main.e21a9432.js"
+    "static/css/main.3faa66a4.css",
+    "static/js/main.4316e534.js"
   ]
 }
