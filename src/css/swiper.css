@@ -14,18 +14,5 @@
 .swiper {
     --swiper-navigation-size: 20px;
     --swiper-theme-color: #ffffff;
+    border-radius: 10px;
 }
-
-/* @media (max-width:710px){
-    .swiper {
-        --swiper-navigation-size: 10px;
-    }
-
-    .swiper-button-next, .swiper-button-prev {
-        padding: 7px 2px;
-    }
-
-    .swiper-button-next {
-        transform: translateX(0.5rem);
-    }
-} */

@@ -1,8 +1,9 @@
 import Navbar from "./components/Navbar";
 import TopSection from "./components/TopSection";
 import SearchBar from "./components/SearchBar";
-import Property from "./components/Property";
 import PropertyContainer from "./components/PropertyContainer";
+import TopHighlightedProject from "./components/TopHighlightedProject";
+import PropertyTwo from "./components/PropertyTwo";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <Navbar />
       <TopSection />
       <SearchBar />
-      <PropertyContainer/>
+      <PropertyContainer />
+      <TopHighlightedProject />
+      <PropertyTwo/>
     </div>
   );
 }
