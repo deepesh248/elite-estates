@@ -1,20 +1,31 @@
 {
   "files": {
-    "main.css": "/elite-estates/static/css/main.75bb335d.css",
-    "main.js": "/elite-estates/static/js/main.78b6f99f.js",
+    "main.css": "/elite-estates/static/css/main.78b821d8.css",
+    "main.js": "/elite-estates/static/js/main.2e6cde1d.js",
     "static/media/house.png": "/elite-estates/static/media/house.adfb8de9a8bc7824885f.png",
+    "static/media/pexels-emrecan-2079234.jpg": "/elite-estates/static/media/pexels-emrecan-2079234.f3c86c9d935968d2f08d.jpg",
+    "static/media/pexels-binyaminmellish-1396122.jpg": "/elite-estates/static/media/pexels-binyaminmellish-1396122.4e56bd3908dd43486772.jpg",
+    "static/media/pexels-valeriiamiller-2587054.jpg": "/elite-estates/static/media/pexels-valeriiamiller-2587054.56cb4b87f33cbe115af8.jpg",
     "static/media/pexels-pixabay-259588.jpg": "/elite-estates/static/media/pexels-pixabay-259588.2fbd7cd5c29093d055f9.jpg",
-    "static/media/pexels-emrecan-2079234.jpg": "/elite-estates/static/media/pexels-emrecan-2079234.f8469c193c723fa65294.jpg",
-    "static/media/pexels-binyaminmellish-1396122.jpg": "/elite-estates/static/media/pexels-binyaminmellish-1396122.2d2be2c429a32b678629.jpg",
-    "static/media/pexels-expect-best-79873-323776.jpg": "/elite-estates/static/media/pexels-expect-best-79873-323776.6d32fa4176ceb1002bf8.jpg",
+    "static/media/pexels-expect-best-79873-323780.jpg": "/elite-estates/static/media/pexels-expect-best-79873-323780.6ad6e0b15b58694f7daa.jpg",
+    "static/media/pexels-expect-best-79873-323772.jpg": "/elite-estates/static/media/pexels-expect-best-79873-323772.fd15f72e9831fd0a90a2.jpg",
+    "static/media/pexels-expect-best-79873-323776.jpg": "/elite-estates/static/media/pexels-expect-best-79873-323776.7f7ea3eecbbe0765ad74.jpg",
+    "static/media/pexels-expect-best-79873-323775.jpg": "/elite-estates/static/media/pexels-expect-best-79873-323775.fccea2bcf7789ec6b930.jpg",
+    "static/media/pexels-scottwebb-1022936.jpg": "/elite-estates/static/media/pexels-scottwebb-1022936.cfdfeb46b28c4567a6f3.jpg",
+    "static/media/house-8364394_1280.jpg": "/elite-estates/static/media/house-8364394_1280.092ef0f2e74c909e4186.jpg",
+    "static/media/apartments-1845884_1280.jpg": "/elite-estates/static/media/apartments-1845884_1280.2a461108f5cb220e1140.jpg",
+    "static/media/graz-7303533_1280.jpg": "/elite-estates/static/media/graz-7303533_1280.858a6a8718d18581b0c2.jpg",
     "static/media/pexels-pixabay-53610.jpg": "/elite-estates/static/media/pexels-pixabay-53610.3ef76aa2a5e71dc4b3ee.jpg",
+    "static/media/building-7077718_1280.jpg": "/elite-estates/static/media/building-7077718_1280.02db10a67db607acf4ef.jpg",
+    "static/media/building-8536587_1280.jpg": "/elite-estates/static/media/building-8536587_1280.ba1eeec1467391492826.jpg",
+    "static/media/house-5148865_1280.jpg": "/elite-estates/static/media/house-5148865_1280.07dd88e2c9347f0990e0.jpg",
     "static/media/logo_elite.png": "/elite-estates/static/media/logo_elite.cb1ebb95e98a04fb634f.png",
     "index.html": "/elite-estates/index.html",
-    "main.75bb335d.css.map": "/elite-estates/static/css/main.75bb335d.css.map",
-    "main.78b6f99f.js.map": "/elite-estates/static/js/main.78b6f99f.js.map"
+    "main.78b821d8.css.map": "/elite-estates/static/css/main.78b821d8.css.map",
+    "main.2e6cde1d.js.map": "/elite-estates/static/js/main.2e6cde1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.75bb335d.css",
-    "static/js/main.78b6f99f.js"
+    "static/css/main.78b821d8.css",
+    "static/js/main.2e6cde1d.js"
   ]
 }
