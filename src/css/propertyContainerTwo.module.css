@@ -1,0 +1,20 @@
+
+
+@media (max-width:1030px) {
+    .swiper-button-prev{
+        scale: 0.8;
+        transform: translateX(-0.9rem);
+        
+    }
+
+    .swiper-button-next{
+        scale: 0.8;
+        transform: translateX(-0.7rem);
+    }
+}
+
+@media (max-width:430px){
+    .swiper{
+        --swiper-navigation-size: 10px;
+    }
+}

@@ -13,7 +13,8 @@
     display: flex;
     position: relative;
     border-radius: 10px;
-    transition: all 0.5 ease;
+    transition: all 0.5s ease;
+    opacity: 0.8;
 }
 
 .content{
@@ -62,7 +63,7 @@
 }
 
 .gradient:hover{
-    background: linear-gradient(0deg, rgba(15, 31, 37, 0.561) 0%, rgba(0,212,255,0) 100%);
+    opacity: 1;
 }
 
 @media (max-width:1030px){

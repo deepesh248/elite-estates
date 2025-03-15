@@ -3,7 +3,7 @@ import TopSection from "./components/TopSection";
 import SearchBar from "./components/SearchBar";
 import PropertyContainer from "./components/PropertyContainer";
 import TopHighlightedProject from "./components/TopHighlightedProject";
-import PropertyTwo from "./components/PropertyTwo";
+import PropertyContainerTwo from "./components/PropertyContainerTwo";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <SearchBar />
       <PropertyContainer />
       <TopHighlightedProject />
-      <PropertyTwo/>
+      <PropertyContainerTwo/>
     </div>
   );
 }

@@ -1,23 +1,17 @@
-import "../css/propertyTwo.css";
+import style from "../css/propertyTwo.module.css";
 
-function PropertyTwo() {
+function PropertyTwo(props) {
   return (
     <>
-      <div className="container">
-        <div class="card">
-          <img
-            src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
-            alt=""
-          />
-          <div class="card-content">
-            <h2>Card Heading</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              exercitationem iste, voluptatum
-            </p>
-          </div>
+      <a href="##" className={style.container}>
+        <div className={style.image}><img src={props.img} alt="" /></div>
+        <div className={style.content}>
+          <h1>{props.house}</h1>
+          <h2>{props.bhk}</h2>
+          <h2>{props.location}</h2>
+          <h2>{props.price}</h2>
         </div>
-      </div>
+      </a>
     </>
   );
 }
