@@ -1,0 +1,126 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    margin-top: 6rem;
+  }
+  
+  .citiesHeading {
+    margin-bottom: 3rem;
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.3rem;
+    color: rgb(3, 40, 75);
+    text-decoration: underline;
+  }
+  
+  .citiesFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cityCard {
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    border-radius: 10rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease;
+    margin: 1rem 5rem;
+  }
+  
+  .cityCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .cityImage {
+    width: 15rem;
+    object-fit: cover;
+  }
+  
+  .cityOverlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px 0;
+    text-align: center;
+  }
+  
+  .cityName {
+    font-size: 1.5rem;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @media (max-width:1240px) {
+    .cityCard{
+        margin: 1rem 2rem;
+    }
+  }
+
+  @media (max-width:1030px) {
+
+    .citiesHeading{
+        font-size: 1.8rem;
+    }
+}
+
+  @media (max-width:960px) {
+    .cityCard{
+        width: 12rem;
+        height: 12rem;
+        margin: 1rem 1.1rem;
+    }
+
+    .cityImage{
+        width: 12rem;
+    }
+  }
+
+  @media (max-width:720px) {
+    .cityCard{
+        width: 9rem;
+        height: 9rem;
+        margin: 1rem 1rem;
+    }
+
+    .cityImage{
+        width: 9rem;
+    }
+
+    .cityName {
+        font-size: 15px;
+      }
+
+    .cityOverlay{
+        padding: 5px 0;
+    }
+      
+  }
+
+  @media (max-width:570px) {
+    .cityCard{
+        width: 6rem;
+        height: 6rem;
+        margin: 0.5rem 0.5rem;
+    }
+
+    .cityImage{
+        width: 6rem;
+    }
+
+    .cityName {
+        font-size: 15px;
+      }
+
+    .cityOverlay{
+        padding: 5px 0;
+    }
+      
+  }

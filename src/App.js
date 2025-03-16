@@ -4,6 +4,7 @@ import SearchBar from "./components/SearchBar";
 import PropertyContainer from "./components/PropertyContainer";
 import TopHighlightedProject from "./components/TopHighlightedProject";
 import PropertyContainerTwo from "./components/PropertyContainerTwo";
+import AreaCovered from "./components/AreaCovered";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <SearchBar />
       <PropertyContainer />
       <TopHighlightedProject />
-      <PropertyContainerTwo/>
+      <PropertyContainerTwo />
+      <AreaCovered/>
     </div>
   );
 }
