@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/elite-estates/static/css/main.78b821d8.css",
-    "main.js": "/elite-estates/static/js/main.2e6cde1d.js",
+    "main.css": "/elite-estates/static/css/main.b6412c3e.css",
+    "main.js": "/elite-estates/static/js/main.2e0f1fc9.js",
     "static/media/house.png": "/elite-estates/static/media/house.adfb8de9a8bc7824885f.png",
     "static/media/pexels-emrecan-2079234.jpg": "/elite-estates/static/media/pexels-emrecan-2079234.f3c86c9d935968d2f08d.jpg",
     "static/media/pexels-binyaminmellish-1396122.jpg": "/elite-estates/static/media/pexels-binyaminmellish-1396122.4e56bd3908dd43486772.jpg",
@@ -19,13 +19,19 @@
     "static/media/building-7077718_1280.jpg": "/elite-estates/static/media/building-7077718_1280.02db10a67db607acf4ef.jpg",
     "static/media/building-8536587_1280.jpg": "/elite-estates/static/media/building-8536587_1280.ba1eeec1467391492826.jpg",
     "static/media/house-5148865_1280.jpg": "/elite-estates/static/media/house-5148865_1280.07dd88e2c9347f0990e0.jpg",
+    "static/media/kolkata.jpeg": "/elite-estates/static/media/kolkata.dbe6d1cea3bb002737e9.jpeg",
+    "static/media/Bengaluru.jpeg": "/elite-estates/static/media/Bengaluru.b3e8bcd102a72ea475b6.jpeg",
+    "static/media/Mumbai.jpeg": "/elite-estates/static/media/Mumbai.ab8e2e7794bc9b69c3fa.jpeg",
+    "static/media/Chennai.jpeg": "/elite-estates/static/media/Chennai.29eefb1aef9c923f4110.jpeg",
     "static/media/logo_elite.png": "/elite-estates/static/media/logo_elite.cb1ebb95e98a04fb634f.png",
+    "static/media/Hyderabad.jpeg": "/elite-estates/static/media/Hyderabad.224fe871988a7ada5130.jpeg",
+    "static/media/Delhi.jpeg": "/elite-estates/static/media/Delhi.5bd3d3dd78c08af16adc.jpeg",
     "index.html": "/elite-estates/index.html",
-    "main.78b821d8.css.map": "/elite-estates/static/css/main.78b821d8.css.map",
-    "main.2e6cde1d.js.map": "/elite-estates/static/js/main.2e6cde1d.js.map"
+    "main.b6412c3e.css.map": "/elite-estates/static/css/main.b6412c3e.css.map",
+    "main.2e0f1fc9.js.map": "/elite-estates/static/js/main.2e0f1fc9.js.map"
   },
   "entrypoints": [
-    "static/css/main.78b821d8.css",
-    "static/js/main.2e6cde1d.js"
+    "static/css/main.b6412c3e.css",
+    "static/js/main.2e0f1fc9.js"
   ]
 }
