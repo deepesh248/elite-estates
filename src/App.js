@@ -5,6 +5,7 @@ import PropertyContainer from "./components/PropertyContainer";
 import TopHighlightedProject from "./components/TopHighlightedProject";
 import PropertyContainerTwo from "./components/PropertyContainerTwo";
 import AreaCovered from "./components/AreaCovered";
+import Amities from "./components/Amenities";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <PropertyContainer />
       <TopHighlightedProject />
       <PropertyContainerTwo />
-      <AreaCovered/>
+      <AreaCovered />
+      <Amities/>
     </div>
   );
 }

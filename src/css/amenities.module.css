@@ -1,0 +1,60 @@
+.heading{
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.3rem;
+    color: rgb(3, 40, 75);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.amenitiesGrid {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .amenityCard {
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+    font-family: "Arimo", sans-serif;
+  }
+  
+  .amenityCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .amenityIcon {
+    font-size: 32px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .amenityText {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+
+  @media (max-width:1030px) {
+    .heading {
+        font-size: 1.8rem;
+    }
+}
+
+  
