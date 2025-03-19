@@ -6,6 +6,7 @@ import TopHighlightedProject from "./components/TopHighlightedProject";
 import PropertyContainerTwo from "./components/PropertyContainerTwo";
 import AreaCovered from "./components/AreaCovered";
 import Amities from "./components/Amenities";
+import Whyus from "./components/Whyus";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <TopHighlightedProject />
       <PropertyContainerTwo />
       <AreaCovered />
-      <Amities/>
+      <Amities />
+      <Whyus/>
     </div>
   );
 }
