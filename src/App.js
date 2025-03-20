@@ -7,6 +7,7 @@ import PropertyContainerTwo from "./components/PropertyContainerTwo";
 import AreaCovered from "./components/AreaCovered";
 import Amities from "./components/Amenities";
 import Whyus from "./components/Whyus";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <PropertyContainerTwo />
       <AreaCovered />
       <Amities />
-      <Whyus/>
+      <Whyus />
+      <Footer/>
     </div>
   );
 }
